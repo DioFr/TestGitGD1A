@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PVUpdater
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":134.5546},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-230.0,"y":-90.0},"guid":"cb06087b-c3a1-4e81-a022-f001c21a4390","$version":"A","$type":"Bolt.Update","$id":"9"},{"chainable":false,"member":{"name":"ToString","parameterTypes":["System.String"],"targetType":"System.Int32","targetTypeName":"System.Int32","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"System.Int32"},"%format":{"$content":"","$type":"System.String"}},"position":{"x":-50.0,"y":2.0},"guid":"5f930b27-d5d7-403d-aa22-4359b8dc2653","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":129.0,"y":-90.0},"guid":"d1b7ff8d-55d2-4a10-a800-70d610adfb2d","$version":"A","$type":"Bolt.SetMember","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"PV","$type":"System.String"},"object":null},"position":{"x":-255.0,"y":24.0},"guid":"93c81d81-a603-4d51-9f71-403b36ff6bd8","$version":"A","$type":"Bolt.GetVariable","$id":"17"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Ref
+      Player","$type":"System.String"}},"position":{"x":-446.0,"y":45.0},"guid":"f9215aca-a5ca-4173-b4a3-57a559901b2c","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"9331df70-9252-41ec-be91-cefc0f2618c4","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"result","destinationUnit":{"$ref":"14"},"destinationKey":"input","guid":"92f46ec0-6167-4496-b0f3-fcd7439f7f59","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"3815cab8-7bde-4b25-bf9b-d06b435757b6","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"object","guid":"9bb471ff-43f1-445d-ae6b-9ff831fd99dd","$type":"Bolt.ValueConnection"},{"position":{"xMin":-476.0,"yMin":-142.0,"xMax":340.0,"yMax":149.0},"label":"Afficher
+      les points de vie","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"987d57b1-f761-4804-b9a0-e5b7e075b8a1","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
